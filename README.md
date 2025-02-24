@@ -8,7 +8,7 @@ When starting a software project, we have several alternatives for designing its
 
 However, as the organization grows and expands its functionalities, capabilities, and processes, it becomes essential to optimize and manage change within the IT landscape. To achieve this, various strategies enable the **evolution from a monolith to more modular and scalable architectures**.
 
-![Monolith Frontend](./images/Strangler_Fig_Monolith.png)
+![Monolith Frontend](./images/Strangler_Fig_Monolith_1.png)
 
 ## Migration Strategy
 In this repository, we focus on transforming a monolithic frontend using the **Strangler Fig** pattern, enabling a gradual transition toward a **Backend for Microfrontend (BFMF)** model.
@@ -23,7 +23,7 @@ Let's start with an example of a project that currently has a **monolithic front
 4. **Implement an Anti-Corruption System**: This system is essential to disable `Customer Management` functionalities in the monolith and delegate them to the new microfrontend.
 5. **Iterate and Expand**: Over multiple iterations, more functionalities are extracted until achieving a **TO-BE** architecture.
 
-![Monolith Migration](./images/Strangler_Fig_ACL.png)
+![Monolith Migration](./images/Strangler_Fig_ACL_1.png)
 
 ## Target Architecture (TO-BE)
 After several iterations, we can achieve a **TO-BE** architecture, as shown in the following diagram (to be added). Key characteristics include:
@@ -31,7 +31,7 @@ After several iterations, we can achieve a **TO-BE** architecture, as shown in t
 - **Separation of Responsibilities**: A clear distinction between frontend and backend functionalities.
 - **Scalability and Modularity**: Components are independently deployable and scalable.
 
-![Monolith Migration](./images/Strangler_Fig_To_Be.png)
+![Monolith Migration](./images/Strangler_Fig_To_Be_1.png)
 
 ## Scaling with Backend for Microfrontend (BFMF)
 Beyond simply applying the **Strangler Fig** pattern, the **TO-BE** architecture reveals a clear **separation of responsibilities** at the system level. At this stage, we can **strategically scale operations** and **accelerate development** by specializing each system domain.
@@ -49,7 +49,7 @@ Each team oversees a specific functionality **from frontend to backend**, effect
 - **Cross-Project Integration**: Components can be reused across different organizational projects.
 - **Controlled Evolution**: Gradual enhancements without disrupting existing functionalities.
 
-![Monolith Migration](./images/Strangler_Fig_To_Be_BFMF.png)
+![Monolith Migration](./images/Strangler_Fig_To_Be_BFMF_1.png)
 
 ## Conclusion
 By leveraging the **Strangler Fig** pattern and transitioning to a **Backend for Microfrontend (BFMF)** model, organizations can efficiently modernize their frontend architecture while maintaining stability and scalability. This approach minimizes risk, optimizes team workflows, and enables long-term architectural flexibility.
