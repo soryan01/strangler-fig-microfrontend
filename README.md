@@ -49,7 +49,7 @@ Each team oversees a specific functionality **from frontend to backend**, effect
 - **Cross-Project Integration**: Components can be reused across different organizational projects.
 - **Controlled Evolution**: Gradual enhancements without disrupting existing functionalities.
 
-![Monolith Migration](./images/Strangler_Fig_To_Be_BFMF_1.png)
+![Monolith Migration](./images/Strangler_Fig_To_Be_BFMF.png)
 
 ## Conclusion
 By leveraging the **Strangler Fig** pattern and transitioning to a **Backend for Microfrontend (BFMF)** model, organizations can efficiently modernize their frontend architecture while maintaining stability and scalability. This approach minimizes risk, optimizes team workflows, and enables long-term architectural flexibility.
